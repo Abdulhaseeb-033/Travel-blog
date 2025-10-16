@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(245, 255, 245);
+    color: rgb(34, 34, 34);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 100, 0);
+    color: rgb(255, 255, 255);
+    padding: 18px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+    padding: 6px 0;
+}
+
+nav a {
+    color: rgb(0, 100, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 3px 6px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 100, 0, 0.04);
+    border-radius: 4px;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 18px auto;
+    padding: 18px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: 1px solid rgb(220, 240, 220);
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgb(200, 230, 200);
+}
+
+table {
+    width: 80%;
+    margin: 14px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(200, 230, 200);
+    text-align: center;
+}
+
+th {
+    background-color: rgb(208, 240, 192);
+    color: rgb(0, 77, 0);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+    padding: 10px 6px;
+}
